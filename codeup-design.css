@@ -1,0 +1,17 @@
+.container-fluid a{
+    font-family: "Anton";
+}
+.main-text{
+    font-family: "Anton";
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    background: red;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+}
