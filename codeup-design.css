@@ -1,3 +1,7 @@
+body{
+    background-color: #F0F0F0;
+}
+
 .container-fluid a{
     font-family: "Anton";
 }
@@ -6,12 +10,13 @@
 }
 
 .circle {
-    width: 140px;
-    height: 140px;
-    background: red;
+    width: 100px;
+    height: 100px;
+    background: #E6563B;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
+    border: 7px solid white;
     color: white;
     text-decoration: none;
 }
