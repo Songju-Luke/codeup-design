@@ -1,6 +1,10 @@
 body{
     background-color: #F0F0F0;
+    margin:0;
+    padding: 0;
 }
+
+
 
 .container-fluid a{
     font-family: "Anton";
@@ -9,14 +13,54 @@ body{
     font-family: "Anton";
 }
 
-.circle {
+.menu{
+    padding: 0;
+}
+
+.buttons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anton";
+
     width: 100px;
     height: 100px;
-    background: #E6563B;
+    margin: 1em;
+
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
     border: 7px solid white;
     color: white;
-    text-decoration: none;
 }
+
+.buttons div:nth-child(1){
+    background: #e6563b;
+}
+
+.buttons div:nth-child(2){
+    background: #eb9d3a;
+}
+
+.buttons div:nth-child(3){
+    background: #7cb06c;
+}
+
+.buttons div:nth-child(4){
+    background: #00aba9;
+}
+
+
+@media screen and (min-width: 100px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .navbar-brand{
+        display: contents;
+    }
+}
+
+
