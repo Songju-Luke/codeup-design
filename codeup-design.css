@@ -50,15 +50,98 @@ body{
 }
 
 
+.icons span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anton";
+    font-size: 10px;
+
+    width: 18px;
+    height: 18px;
+
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    color: black;
+}
+
+.icons :nth-child(1){
+    background: #e6563b;
+}
+
+.icons :nth-child(2){
+    background: #eb9d3a;
+}
+
+.icons :nth-child(3){
+    background: #7cb06c;
+}
+
+.icons :nth-child(4){
+    background: #00aba9;
+}
+
+.projects{
+}
+
+.project{
+}
+
+.project img{
+    width: 100%;
+}
+
+.detail{
+    display:flex;
+    justify-content: space-between;
+
+}
+
 @media screen and (min-width: 100px) {
     .navbar-brand{
         display: none;
     }
+
+    .buttons div{
+        margin:1em
+    }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 420px)  {
+    .navbar-brand{
+        display: none;
+    }
+
+    .buttons div{
+        margin:1.5em;
+    }
+    .buttons{
+        padding: 0 1.5em 0;
+    }
+}
+
+@media screen and (min-width: 492px){
+    .navbar-brand{
+        display: none;
+    }
+
+    .buttons div{
+        margin:1.5em;
+    }
+    .buttons{
+        padding: 0 5em 0 5em;
+    }
+}
+
+
+@media screen and (min-width: 624px) {
     .navbar-brand{
         display: contents;
+    }
+
+    .buttons{
+        padding: 0;
     }
 }
 
