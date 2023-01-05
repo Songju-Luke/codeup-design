@@ -82,15 +82,20 @@ body{
     background: #00aba9;
 }
 
+
+
 .project{
     width: 300px;
     margin: .75em;
+
 
 }
 
 
 .project img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+
     padding: 5px;
     background: #e6e6e6;
 }
@@ -104,23 +109,24 @@ body{
 .news{
     display: flex;
     font-family: "Anton";
+    margin: 1em 0;
 }
 
 
 
 .news img{
-    width: 100px;
+    width: auto;
+    height: 70px;
+
+    padding: 3px;
+    margin: 3px;
+    background: #e6e6e6;
 }
 
 .news p{
     font-size: 24px;
+    margin-left: 1em;
 }
-
-
-
-
-
-
 
 
 @media screen and (min-width: 100px) {
@@ -144,6 +150,10 @@ body{
     .buttons{
         padding: 0 1.5em 0;
     }
+
+    .newsBox{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 492px){
@@ -157,6 +167,10 @@ body{
     .buttons{
         padding: 0 5em 0 5em;
     }
+
+    .newsBox{
+        display: none;
+    }
 }
 
 
@@ -165,20 +179,33 @@ body{
         display: none;
     }
 
+    .newsBox{
+         display: none;
+     }
+
     .buttons{
         padding: 0;
     }
 }
 
 
-@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 992px)  {
     .navbar-brand{
         display: contents;
     }
 
+    .newsBox{
+        display: flex;
+        flex-direction: column;
+    }
+
     .buttons{
         padding: 0;
     }
 }
+
+/*992px - 1067px*/
+
 
 
