@@ -9,6 +9,11 @@ body{
 }
 .main-text{
     font-family: "Anton";
+    text-align: center;
+}
+
+.main-text p{
+    text-align: center;
 }
 h3{
     font-family: "Abel";
@@ -93,8 +98,6 @@ h3{
 .project{
     max-width: 100%;
     margin: .75em;
-
-
 }
 
 
