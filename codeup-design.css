@@ -4,8 +4,6 @@ body{
     padding: 0;
 }
 
-
-
 .container-fluid a{
     font-family: "Anton";
 }
@@ -15,6 +13,7 @@ body{
 h3{
     font-family: "Abel";
 }
+
 .container-fluid a{
     font-family: "Abel";
 }
@@ -62,6 +61,7 @@ h3{
     align-items: center;
     font-family: "Anton";
     font-size: 10px;
+    margin-left: 5px;
 
     width: 18px;
     height: 18px;
@@ -91,7 +91,7 @@ h3{
 
 
 .project{
-    width: 300px;
+    max-width: 100%;
     margin: .75em;
 
 
@@ -100,7 +100,8 @@ h3{
 
 .project img{
     width: 100%;
-    height: auto;
+    max-height: 80%;
+    object-fit: cover;
 
     padding: 5px;
     background: #e6e6e6;
@@ -121,8 +122,8 @@ h3{
 
 
 .news img{
-    width: auto;
-    height: 70px;
+    width: 30%;
+    height: 30%;
 
     padding: 3px;
     margin: 3px;
