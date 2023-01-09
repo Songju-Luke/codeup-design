@@ -4,23 +4,12 @@ body{
     padding: 0;
 }
 
-.container-fluid a{
+.container-fluid a ,.main-text{
     font-family: "Anton";
 }
 
-.main-text{
-    font-family: "Anton";
-    text-align: center;
-}
 
-.main-text p{
-    text-align: center;
-}
-h3{
-    font-family: "Abel";
-}
-
-.container-fluid a{
+h3, .container-fluid a{
     font-family: "Abel";
 }
 
@@ -114,7 +103,6 @@ h3{
 .detail{
     display:flex;
     justify-content: space-between;
-
 }
 
 .news{
